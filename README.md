@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# ProjectSimpre
+# Proiect Cloud Computing
+### Introducere
+Aceasta aplicatie are scopul de a imbunatati evidenta/managementul mai multor pisici atat intr-un magazin cat si intr-o crescatorie/casa.Mentinerea unei evidente cat si a unor informatii usor de accesat sunt visul oricarui proprietar de animale,respectiv pisici tinand cont de efortul ce este depus in ingrijirea acestora.
+## Descriere problema
+In aceasta perioada de izolare , datorata pandemiei cu coronavirus, m-am gandit sa fac o aplicatie web care sa ajute la mentinerea si accesarea mai facila a informatiilor despre pisici.
+Avand in vedere ca numarul iubitorilor de pisici creste pe zi ce trece acest lucru va genera o cerere importanta magazinelor/crescatoriilor de pisici.Pentru a micsora procentajul de eroare in ceea ce priveste furnizarea eronata a informatiei catre client aplicatia mentine sub o forma tabelara informatiile de baza ce sunt necesare clientului atunci cand doreste sa achizitioneze o pisica.
+Privind aplicatia din punctul de vedere al unui proprietar de magazin/crescatorie de pisici,aceasta este una ce aduce o "gura de aer proaspat" deoarece inregistrarea unei noi pisici si mentineara informatiei despre aceasta se face intr un mod eficient.In Romania numarul pisicilor este de patru milioane,acest lucru contitutie un semnal de alarma pentru industria IT in ceea ce priveste dezvoltarea unor aplicatii ce ajuta la mentineara unei evidente corecta a felinelor.
+ Aplicatie:
+Aplicatia este una user-friendly si are la baza un tabel in care sunt tinute informatii despre pisici.Pentru a adauga o pisica noua se va face click pe butonul "ADD CAT".In momentul apelarii evenimentului de onClick se va deschide un pop-up ce contine campuri descriptive pentru pisica nou intrata,campuri pe care
+userul va trebuii sa le completeze.Avand in vedere ca sunt campuri precum greutate,varsta etc ce sunt volatile pentru a actualiza informatiile acestora se va face click pe creionul din dreptul inregistrarii dorite ce se doreste modificata.In cazul in care pisica este vanduta s au necesita sa fie scoasa din sistem
+se va face click pe cosul din dreptul inregistrarii dorite.Pentru ca modificarea sa fie vizibila va trebuii ca userul sa faca refresh pe pagina curenta.
+## Prezentare API-uri utilizate
+Pentru realizarea funcționalităților prezentate anterior, am utilizat 2 API-uri: TheCatApi si Gmail API. 
+Gmail API este un RESTful API ce este utilizat pentru a accesa casuta de Gmail,plus alte functionalitati specifice.Gmail API este o solutie buna pentru accesul la datele din Gmail.
+Acesta poate fi folosit la citirea de mail-uri, adaugarea sau stergerea filtrelor, automatizarea sau programarea trimiterii mesajelor, migrarea email-uriloe catre alt provider.
+Am folosit api ul TheCatApi pentru a extrage informatii despre pisica in functie de rasa introdusa.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
